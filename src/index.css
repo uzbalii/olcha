@@ -1,21 +1,40 @@
-*{
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #fff;
-  font-size: 18px;
+  color: inherit;
 }
 
-button,
-input,
-label{
+button {
   border: none;
-  font-size: 16px;
+  outline: none;
+  cursor: pointer;
 }
 
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+}
+
+#root {
+  --main-color: #da002b;
+  --text-color: #111;
+}
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
