@@ -11,13 +11,13 @@ function Headertop() {
       </nav>
 
       <div className="nav2">
-        <a href="tel:+998 (71) 202 202 1"></a>
+        <a href="tel:+998 (71) 202 202 1">+998 (71) 202 202 1</a>
         <button className='btn4'>olcha da soting</button>
-
-       
+        <hr />
           <p>Ўзб</p>
           <p>O'z</p>
           <p>Рус</p>
+          <hr />
 
       </div>
     </div>

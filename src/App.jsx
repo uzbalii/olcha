@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import { Route, Routes } from 'react-router-dom'
-import Main from './components/main/Main';
+import Main from './router/main/Main';
 import Korzina from './router/korzina/Korzina';
 import Login from './router/login/Login';
 import Heart from './router/heart/Heart';
