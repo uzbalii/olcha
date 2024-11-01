@@ -8,6 +8,8 @@ import Heart from "./router/heart/Heart";
 import Compare from "./router/compare/Compare";
 
 function App() {
+  console.log("ok");
+
   return (
     <div id="app">
       <Header />
