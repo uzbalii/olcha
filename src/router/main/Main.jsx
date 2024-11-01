@@ -75,9 +75,6 @@ function Main() {
 
   ]
 
-  console.log("reth");
-
-
 
   return (
     <div className="main">
