@@ -12,7 +12,7 @@ import { Navigation } from "swiper/modules";
 
 
 function Main() {
- const data = [
+  const data = [
     {
       images: [
         "https://olcha.uz/image/original/sliders/ru/cdn_1/2024-08-01/nmTGSvySh6B9NkfkIVnzn6edwuP4jf6n63DuRiCO6j4NIgdJk75uWcFGk6QN.jpg",
@@ -74,6 +74,9 @@ function Main() {
     },
 
   ]
+
+  console.log("reth");
+
 
 
   return (
