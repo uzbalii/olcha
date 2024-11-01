@@ -5,30 +5,46 @@
 }
 
 .img{
-    width: 1440px;
-    height: 430px;
+    display: flex;
+    gap: 25px;
+}
+
+.mySwiper{
+    width: 1200px;
+    height: 450px;
     padding: 20px;
     display: flex;
     gap: 25px;
 
-    img{
+    .carousel_img{
         width: 1082px;
-        height: 430px;
+        height: 450px;
         height: 100%;
         border-radius: 15px;
     }
 }
 
+
+.cardSwiper{
+width: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
 .day_product{
-    width: 304px;
-    height: 430px;
+    margin: 0 auto;
+    width: 310px;
+    height: 450px;
     border: 2px solid #da002b;
-    padding: 10px;
+    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-weight: normal;
-
+    border-radius: 10px;
     h3{
         font-size: 18px;
         font-weight: normal;
@@ -43,6 +59,7 @@
     img{
         width: 279px;
         height: 329px;
+        border-radius: 10px;
     }
 }
 
@@ -60,13 +77,17 @@
     gap: 10px;
 
     .card{
-        width: 150px;
+        width:200px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 15px;
         text-align: center;
+        
+        p{
+            font-size: 15px;
+        }
     }
 }
 
