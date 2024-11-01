@@ -10,6 +10,7 @@ header {
   gap: 30px;
   justify-content: space-between;
   padding: 0 2%;
+  background-color: #fff;
 
   .logo img {
     width: 102px;
