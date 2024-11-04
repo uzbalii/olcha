@@ -8,15 +8,17 @@ import Heart from "./router/heart/Heart";
 import Compare from "./router/compare/Compare";
 
 function App() {
+  console.log("ok");
+
   return (
     <div id="app">
       <Header />
       <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/heart' element={<Heart />} />
-        <Route path='/korzina' element={<Korzina />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/compare' element={<Compare />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/heart" element={<Heart />} />
+        <Route path="/korzina" element={<Korzina />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/compare" element={<Compare />} />
       </Routes>
     </div>
   );
