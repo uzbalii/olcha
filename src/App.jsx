@@ -11,13 +11,13 @@ function App() {
   return (
     <div id="app">
       <Header />
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/heart' element={<Heart />} />
         <Route path='/korzina' element={<Korzina />} />
         <Route path='/login' element={<Login />} />
         <Route path='/compare' element={<Compare />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
