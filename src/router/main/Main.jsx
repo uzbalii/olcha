@@ -44,6 +44,9 @@ function Main() {
 
   ];
 
+  console.log(data);
+
+
   const days = [
     {
       name: "Kun Mahsuloti",
