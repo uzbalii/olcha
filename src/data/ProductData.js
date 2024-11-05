@@ -246,6 +246,6 @@ export const phoneData = [
       "https://olcha.uz/image/220x220/products/RJhJOEduNOp1zrolPNe1MreQC5ehbbi4mNgQ3o2ClbKCmADIWdvPBBh2DaQd.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
     ],
-    price: 1736000,
+    price: 6000,
   },
 ];
