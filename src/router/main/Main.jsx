@@ -5,7 +5,7 @@ import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
 
 function Main() {
-  return (
+  return (git
     <div className="main">
       <Banner />
       <Catalogs />
