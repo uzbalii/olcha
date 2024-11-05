@@ -10,6 +10,15 @@
   font-family: "Raleway", sans-serif;
 }
 
+*::selection {
+  background-color: #da002b;
+  color: #fff;
+}
+
+*::first-letter {
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   color: inherit;
