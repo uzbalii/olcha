@@ -1,0 +1,19 @@
+
+.phone{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+    padding: 20px;
+    background-color: #fd1479;
+}
+.product_item_phone figure {
+    height: 351px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .product_item_phone figure img {
+    width: 100%;
+    border-radius: 12px;
+    height: 100%;
+  }

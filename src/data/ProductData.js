@@ -31,6 +31,7 @@ export const popularData = [
     price: 14718262,
     name: "Apple iPhone 15 Pro 128GB Black titanium",
     img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-10-29/igxSauEdydM2GgnumKjD6WjPFpzBNROgGM1KPuR7KZLaNYhrAeskeMehymWL.jpg",
       "https://olcha.uz/image/original/products/supplier/stores/1/2023-09-13/x64fGyf3Aku67gaS9EVsT8XpdZNd53Au8IoA2ofqjovCBFtklyrWcREzas4n.jpg",
     ],
     memeory: 128,
@@ -43,6 +44,7 @@ export const popularData = [
     price: 4550000,
     name: "Samsung Galaxy A15 Ko‘k 4/128 GB",
     img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-10-29/Ha1rIGIYeJatAssMl3J2BTgRzw39GGILNRFoNAKblo7pmEcXrCKmNHfuNQGt.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2024-01-10/F1sh1vS8KjK60NaCQBhQvtidDGsSd3kdKAlqcseiPTqwrUeHnUBr4f3GOdvW.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2024-01-10/F1sh1vS8KjK60NaCQBhQvtidDGsSd3kdKAlqcseiPTqwrUeHnUBr4f3GOdvW.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2024-01-10/n2Nspewn8fdZfHh2jATTxNpY1pIHAX12jy07pdfnj0HgYgsvfgg4CdLghuvU.jpg",
@@ -57,6 +59,7 @@ export const popularData = [
     price: 1850000,
     name: "Xiaomi Redmi Note 13 5G Blue 4/128 GB",
     img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-10-29/UQlNvGQySqfTrPRcX4W5lmRDvDGLUyPLC7PUs3juRy8IPe0yoewcahIj76Lw.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2024-01-12/dUNS0h6Nb393UYANbT6fVUnBcJyh5JKkQDV6bENrX7gdllN4sDXsWSjBIcfc.jpg",
     ],
     memory: "4/128",
@@ -235,7 +238,10 @@ export const phoneData = [
   {
     id: 26,
     name: "Huawei Nova 11i 8/128GB Black",
-    img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/KRRhk8DwLiQVNVyaOc75QNNdLolmfIoVWvUomyOtFPzo9LnIeIuVOdhMwSJc.jpg",
+    img:[ 
+      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/KRRhk8DwLiQVNVyaOc75QNNdLolmfIoVWvUomyOtFPzo9LnIeIuVOdhMwSJc.jpg",
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-07-05/llrFlAIcTcjGAVwrCJKufaIS2VpibhftZtreunoL6StOGGM7kf2rBdxu0w9i.jpg",
+  ],
     price: 1736000,
   },
   {
@@ -248,4 +254,42 @@ export const phoneData = [
     ],
     price: 6000,
   },
+  {
+    id: 28,
+    name: "Huawei nova 10 Pro 8/256 GB Yorqin qora",
+    img: [
+      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      
+    ],
+    price: 7060000,
+  },
+  {
+    id: 29,
+    name: "Huawei nova 10 Pro",
+    img: [
+      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+          ],
+    price: 7060000,
+  },
+  {
+    id: 30,
+    name: "Apple iPhone 12 64GB white",
+    img: [
+      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      
+    ],
+    price: 8123000,
+  },
+  {
+    id: 31,
+    name: "Apple iPhone 12 64GB Green",
+    img: [
+      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      
+    ],
+    price: 8123000,
+  },
+
+
+
 ];

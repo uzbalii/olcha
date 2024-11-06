@@ -3,10 +3,10 @@ import "./Main.css";
 import Banner from "../../components/banner/Banner";
 import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
+import Phone from "../../components/phone/Phone";
 
 function Main() {
-<<<<<<< HEAD
-=======
+  
   const data = [
     {
       images: [
@@ -74,12 +74,13 @@ function Main() {
   ]
 
 
->>>>>>> origin/ali
   return (
     <div className="main">
       <Banner />
       <Catalogs />
       <Products />
+      <Phone />
+
     </div>
   );
 }

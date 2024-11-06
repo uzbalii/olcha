@@ -1,15 +1,18 @@
-import React from "react";
-import "./Products.css";
-import { popularData } from "../../data/ProductData";
+import React from 'react';
+import "./Phone.css";
+import { phoneData } from "../../data/ProductData"
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 
-function Products() {
+function phone() {
   return (
-    <div className="products">
-      {popularData?.map((item, index) => (  
-        <div className="product_item">
+    <div className="phone">
+      {phoneData?.map((item, index) => (  
+        <div className="product_item_phone">
+          <div className="phone_left">
+            
+          </div>
           {item.discount > 0 && <p className="product_discount">17 %</p>}
           <button className="product_heart">
             <IoMdHeartEmpty />
@@ -45,11 +48,10 @@ function Products() {
             <button>Muddatli to'lov</button>
           </div>
         </div>
-
-           
       ))}
+    
     </div>
-  );
+  )
 }
 
-export default Products;
+export default phone;
