@@ -123,26 +123,10 @@ export const popularData = [
     discount: 17,
   },
 
-  {
-    id: 11,
-    price: 7917000,
-    name: "Diska mashina uchun R18 0292 5-112 MB 4 ta",
-    img: [
-      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/Fcs9SIDzEQCHrmIZdKRZA3QPeUCJY0fwnkL1XcAJ5LhV5Ldtkwlgz1CPWQr1.jpg",
-    ],
-    discount: 17,
-  },
-
-  {
-    id: 12,
-    price: 3317000,
-    name: "Avtomobil signalizatsiyasi Magicar Dominant 909 (Original)",
-    img: [
-      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/C9cI4kvEtoWMDNA34ncJVJsVcKZZBOkgRHAFUO3mYEjly0V8esHezQr3c9Fp.jpg",
-    ],
-    discount: 17,
-  },
+  
 ];
+
+
 
 export const sparePartsData = [
   {
@@ -246,6 +230,94 @@ export const phoneData = [
       "https://olcha.uz/image/220x220/products/RJhJOEduNOp1zrolPNe1MreQC5ehbbi4mNgQ3o2ClbKCmADIWdvPBBh2DaQd.jpg",
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
     ],
-    price: 1736000,
+    price: 6000,
   },
 ];
+
+
+export const seasonalData = [
+  {
+    id: 9,
+    price: 946000,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/0aIc5uCTEjlkVhru8e6kHPMTyx497HMbGN57xI9DuWczhOne6UGpF74ZDdUL.jpg",
+      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/0aIc5uCTEjlkVhru8e6kHPMTyx497HMbGN57xI9DuWczhOne6UGpF74ZDdUL.jpg",
+    ],
+    type: "nexia 1",
+    discount: 17,
+  },
+  {
+    id: 12,
+    price: 3317000,
+    name: "Avtomobil signalizatsiyasi Magicar Dominant 909 (Original)",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/ysEUZvg7k6KeEb5uhMmr2NPEubRTbWerFuyBK5u9WOtu7fwk7oKc2cCXE7Bt.jpg",
+    ],
+    discount: 17,
+  },
+  {
+    id: 13,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/Fcs9SIDzEQCHrmIZdKRZA3QPeUCJY0fwnkL1XcAJ5LhV5Ldtkwlgz1CPWQr1.jpg",
+    ],
+    discount: 17,
+  },
+
+  {
+    id: 14,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/C9cI4kvEtoWMDNA34ncJVJsVcKZZBOkgRHAFUO3mYEjly0V8esHezQr3c9Fp.jpg",
+    ],
+    discount: 17,
+  },
+
+  {
+    id: 15,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/UDUkwqXphdBOJBhnvkADmyrSUpVr0e8oxeAyjhJGEJtH8ADhYQC3jPVtfwE1.jpg",
+    ],
+    discount: 17,
+  },
+]
+
+export const carData = [
+  {
+    url: "https://olcha.uz/image/132x132/category/d4d6t7a1qSh6fBEToCRfVQY5O3w3mMxiChSDsbVALBxjxXGVeDo3qKG10Npi.png",
+    name: "Vidio register",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/VasWe4boWvAg1agTYMzm9oh5SwRyrYcO8PMjks2Tl7n4RhICTS8eoWzm8yVI.png",
+    name: "avto aksesuarlar",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/jsUPuEA9IHAEvkuJAwNGHjYkeVa2yJa6eQWK7EcDIdQMInif8HjQvQ8YlI36.png",
+    name: "karcher",
+  }, {
+    url: "https://olcha.uz/image/132x132/category/1T79CVFM1tfWRjatnqv7RsWiFzFhvAeMEhbMZjc1bNceJR7ara6LAMBrjDb5.png",
+    name: "avto rul",
+  }, {
+    url: "https://olcha.uz/image/132x132/category/vlD2n0Fbfx743UyfQLWdKBiHCNHFLORvLwMUl9WaKNhQF6zrkMgvpo40P4tY.png",
+    name: "avto signalizatsiya",
+  }, {
+    url: "https://olcha.uz/image/132x132/category/7HyrXFsEIKJRBBMl4QywNFTtwbj8b58TiR0L8W48W7D2APlfC7YtOR87j27x.png",
+    name: "akumulator",
+  }, {
+    url: "https://olcha.uz/image/132x132/category/NnPrDfxRshNwGKZK2EzKgKxRJjNLV64aXAcoQbNkjYajTyQ514NgCnfQXHxL.png",
+    name: "shinalar",
+  }, 
+  {
+    url: "https://olcha.uz/image/132x132/category/RXsjevBJB5abpxLqrT0pkis7ZHb20QGn30uNiEben9yzpbz2zqhHHRAgTVC0.png",
+    name: "fara",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/V4Uh5QtLhZrHJ167Heil0Wp0HbiZzvKiWgDGL1OOxYpatpAwBGuJ96ZdYqoO.png",
+    name: "avto gilamcha",
+  }, 
+]
