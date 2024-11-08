@@ -6,7 +6,7 @@ import Products from "../../components/products/Products";
 import Seasonal from "../seasonal/Seasonal";
 import Sparepart from "../../components/sparepart/Sparepart";
 import Phone from "../../components/phone/Phone";
-
+import Accessory from "../../components/accessory/Accessory";
 function Main() {
   return (
     <div className="main">
@@ -30,6 +30,10 @@ function Main() {
       <Seasonal />
       <Sparepart />
       <Phone />
+<<<<<<< HEAD
+=======
+      <Accessory />
+>>>>>>> origin/asqarjon
     </div>
   );
 }

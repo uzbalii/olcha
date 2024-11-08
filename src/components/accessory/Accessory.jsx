@@ -1,14 +1,14 @@
-import React from "react";
-import "./Products.css";
-import { popularData } from "../../data/ProductData";
+import React from 'react'
+import "./accessory.css";
+import { accessoryData } from "../../data/ProductData"
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 
-function Products() {
+function Accessory() {
   return (
-    <div className="products">
-      {popularData?.map((item, index) => (  
+    <div className='Accessory'>
+         {accessoryData?.map((item, index) => (  
         <div key={item.id || index} className="product_item">
           {item.discount > 0 && <p className="product_discount">17 %</p>}
           <button className="product_heart">
@@ -48,8 +48,9 @@ function Products() {
 
            
       ))}
+
     </div>
-  );
+  )
 }
 
-export default Products;
+export default Accessory
