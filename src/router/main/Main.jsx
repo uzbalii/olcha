@@ -5,8 +5,10 @@ import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
 import Seasonal from "../seasonal/Seasonal";
 import Sparepart from "../../components/sparepart/Sparepart";
-import Phone from "../../components/phone/Phone";
-import Accessory from "../../components/accessory/Accessory";
+import Brends from "../../components/brends/Brends";
+import Aksesuars from "../../components/aksesuars/Aksesuars";
+import Appleproduct from "../../components/appleproduct/Appleproduct";
+
 function Main() {
   return (
     <div className="main">
@@ -27,6 +29,7 @@ function Main() {
         />
       </div>
       <Products />
+<<<<<<< HEAD
       <Seasonal />
       <Sparepart />
       <Phone />
@@ -34,6 +37,13 @@ function Main() {
 =======
       <Accessory />
 >>>>>>> origin/asqarjon
+=======
+      <Seasonal/>
+      <Sparepart/>
+      <Brends />
+      <Aksesuars />
+      <Appleproduct/>
+>>>>>>> origin/ali
     </div>
   );
 }
