@@ -4,7 +4,7 @@ import Banner from "../../components/banner/Banner";
 import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
 import Phone from "../../components/phone/Phone";
-
+import Accessory from "../../components/accessory/Accessory";
 function Main() {
   
   const data = [
@@ -80,7 +80,7 @@ function Main() {
       <Catalogs />
       <Products />
       <Phone />
-
+      <Accessory />
     </div>
   );
 }

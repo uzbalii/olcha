@@ -9,10 +9,7 @@ function phone() {
   return (
     <div className="phone">
       {phoneData?.map((item, index) => (  
-        <div className="product_item_phone">
-          <div className="phone_left">
-            
-          </div>
+        <div key={item.id || index} className="product_item_phone">
           {item.discount > 0 && <p className="product_discount">17 %</p>}
           <button className="product_heart">
             <IoMdHeartEmpty />
@@ -28,7 +25,7 @@ function phone() {
           <p className="product_title">{item.name}</p>
 
           <p
-            style={{ color: item.discount > 0 ? "#f00" : "#000" }}
+            style={{ color: item.discount > 0 ? "#f00" : "000" }}
             className="product_price"
           >
             {item.price.toLocaleString()} so'm

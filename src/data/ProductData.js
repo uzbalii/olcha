@@ -34,7 +34,7 @@ export const popularData = [
       "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-10-29/igxSauEdydM2GgnumKjD6WjPFpzBNROgGM1KPuR7KZLaNYhrAeskeMehymWL.jpg",
       "https://olcha.uz/image/original/products/supplier/stores/1/2023-09-13/x64fGyf3Aku67gaS9EVsT8XpdZNd53Au8IoA2ofqjovCBFtklyrWcREzas4n.jpg",
     ],
-    memeory: 128,
+    memory: 128,
     color: "Black titanium",
     discount: 17,
   },
@@ -243,6 +243,7 @@ export const phoneData = [
       "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-07-05/llrFlAIcTcjGAVwrCJKufaIS2VpibhftZtreunoL6StOGGM7kf2rBdxu0w9i.jpg",
   ],
     price: 1736000,
+    discount: -55
   },
   {
     id: 27,
@@ -253,43 +254,108 @@ export const phoneData = [
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
     ],
     price: 6000,
+    discount: -55
   },
   {
     id: 28,
     name: "Huawei nova 10 Pro 8/256 GB Yorqin qora",
     img: [
-      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-07-05/llrFlAIcTcjGAVwrCJKufaIS2VpibhftZtreunoL6StOGGM7kf2rBdxu0w9i.jpg",
       
     ],
     price: 7060000,
+    discount:-7
   },
+
   {
     id: 29,
     name: "Huawei nova 10 Pro",
     img: [
-      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      "https://olcha.uz/image/220x220/products/2022-12-12/huawei-nova-10-pro-181568-0.jpeg",
           ],
-    price: 7060000,
+          price: 7060000,
+          discount:-7
   },
+
   {
     id: 30,
     name: "Apple iPhone 12 64GB white",
     img: [
-      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      "https://olcha.uz/image/220x220/products/2020-10-24/apple-iphone-12-64gb-white-18443-0.jpeg",
       
     ],
     price: 8123000,
+    discount: -25
   },
   {
     id: 31,
     name: "Apple iPhone 12 64GB Green",
     img: [
-      "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
+      "https://olcha.uz/image/220x220/products/2020-10-24/apple-iphone-12-64gb-white-18443-0.jpeg",
       
     ],
     price: 8123000,
+    discount: -25
   },
+]
 
+export const accessoryData = [
+  {
+    id: 32,
+    name: "Besprovodnie naushniki Earbuds M10",
+    img: "https://olcha.uz/image/700x700/products/cdm0m4bFeYZYGZXZMbG6kHmWpZLxJgIAOjiCQcroZXTpVycAj8F38sBcSBHV.jpg",
+    price: 56056,
+    discount: -35,
+  },
+  {
+    id: 33,
+    name: "Qo‘lda bug‘lash mashinasi Haley HY-312",
+    img: "https://olcha.uz/image/700x700/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
+    price:  292000,
+    discount: -13,
 
+  },
+  {
+    id: 34,
+    name: "Aqlli dinamik Yandex stantsiyasi yorug'lik (Yandex Lite YNDX-00025) 62593",
+    img: "https://cdn.olcha.uz/image/700x700/products/woocomerce/sp-phone/2024-06-14/sI1UjXlKh6pERTUmgSCFZlrWB4iyT1eqd34MDDeyGrezwkoYbYK6HJNs98upSIpr.jpeg",
+    price: 255000,
+    discount: -11,
+  },
+  {
+    id: 35,
+    name: "Televizor Vesta V32LH4000 32",
+    img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-08-28/51vh2Y9Z73X6Q7S5BHBoUlD7JUpezLTtef9AffqHIgdVddp1Ky4YBkM4xjj7.jpg",
+    price: 1249000,
+    discount: 19,
+  },
+  {
+    id: 36,
+    name: "Stolli sanoat overloker Jack JK-E3-4-M2-24",
+    img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-09-22/EK19OkjIAv9G3h7UXssfAyuuHi82S692Hm5uDxQsv7EzdftXtyYZfHYsyJ38.jpg",
+    price:  8581000,
+  },
+  {
+    id: 37,
+    name: "Konditsioner Artel ART-12HS Shah Inventor",
+    img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-06-10/XosiXtOFIjqsIWOvUUBSz7m589wZ6FrIhOzsrBh6hrwKp57eiwjItcaVZ4FB.jpg",
+    price: 5198000, 
+    discount: -10
 
-];
+    },
+    {
+      id: 38,
+      name: "Sharbat chiqargich qahva maydalagich blender va maydalagich BSSJ-3882",
+      img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-10-29/77dnkLquMSk3WKoq22KeXNjaUiZGJBvQeWzFuQe5BfaV7I9Aa1kgoy8u0nTF.jpg",
+      price:  850000,
+      discount: -22, 
+    },
+    {
+      id: 39,
+      name: "Stol ventilyatori TF1501",
+      img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-05-14/8YuqyrQWCTq0EVDQZxjIzeIJuQ8VHXS4sQUJXtGZH7TnpL8JDIaTDgu5AOIO.jpg",
+      price: "193000",
+      discount: -40
+    }
+]
+
