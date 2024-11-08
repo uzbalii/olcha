@@ -19,7 +19,7 @@ function Accessory() {
           </button>
 
           <figure>
-            <img src={item.img[0]} alt="" />
+            <img src={item.img} alt="" />
           </figure>
 
           <p className="product_title">{item.name}</p>
