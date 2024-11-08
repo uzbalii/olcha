@@ -1,12 +1,12 @@
-import React from 'react'
-import "./Heart.css"
+import React from "react";
+import Favourites from "../../components/favourites/Favourites";
 
 function Heart() {
   return (
-    <div className="product">
-        <h1>Sevimlilar</h1>
-    </div>
-  )
+    <>
+      <Favourites />
+    </>
+  );
 }
 
-export default Heart
+export default Heart;

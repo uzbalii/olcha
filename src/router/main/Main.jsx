@@ -5,8 +5,6 @@ import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
 
 function Main() {
-<<<<<<< HEAD
-=======
   const data = [
     {
       images: [
@@ -27,20 +25,15 @@ function Main() {
       images: [
         "https://olcha.uz/image/original/sliders/ru/cdn_1/2024-07-31/FSUhVDrgqfCzi8iHoW8S6OPL4DzYbSKNfgZOx6ABCmH6jRwwclh5wpHSZLqU.jpg",
       ],
-
     },
     {
       images: [
         "https://olcha.uz/image/original/sliders/ru/cdn_1/2024-09-16/6Xb1Rezh5jpkkz2uEMdq8TFgp4USJtXBNTPn6zHwI82mU4AZqhGjVT23GVYk.jpg",
       ],
-
     },
-
-
   ];
 
   console.log(data);
-
 
   const days = [
     {
@@ -70,11 +63,8 @@ function Main() {
       malumot: "Qo‘lda bug‘lash mashinasi Haley HY- 312",
       price: "46 000 so'm / 12 oy.",
     },
+  ];
 
-  ]
-
-
->>>>>>> origin/ali
   return (
     <div className="main">
       <Banner />

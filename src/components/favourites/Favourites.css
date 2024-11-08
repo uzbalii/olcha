@@ -1,0 +1,299 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+.favourites {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Raleway", sans-serif;
+  padding: 0 2%;
+}
+
+.favourites h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.favourites .favourites-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 38px;
+}
+
+/* favourite cards */
+
+.cards-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.favourite-card {
+  width: 100%;
+  height: 476px;
+  padding: 16px;
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.favourite-card-top {
+  width: 100%;
+  height: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.favourite-card figure {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.favourite-card figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.favourite-card-top .discount,
+.favourites-actions {
+  position: absolute;
+}
+
+.favourite-card-top .discount {
+  top: 0;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #da002b;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 4px 6px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.favourite-card-top .favourites-actions {
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.favourite-card-top .favourites-actions button {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+
+  svg {
+    width: 22px;
+    height: 22px;
+    color: #999;
+  }
+}
+
+.favourite-card-bottom {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.favourite-product-title {
+  width: 100%;
+  margin-bottom: 8px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  color: #111;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.favourite-card-bottom .price-discount {
+  width: 100%;
+}
+
+.favourite-card-bottom .price-discount {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.favourite-card-bottom .price-discount b {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.favourite-card-bottom .price-discount s {
+  font-family: sans-serif;
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.favourite-card-bottom .yearly-payment {
+  background: #ffd736;
+  border-radius: 6px;
+  color: #111;
+  font-feature-settings: "pnum" on, "lnum" on;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 16px;
+  height: 24px;
+  padding: 4px 8px;
+}
+
+.favourite-card-bottom .sale-buttons-favourites {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.favourite-card-bottom .sale-buttons-favourites button:first-child {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #111;
+  color: #111;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 9px 0;
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.favourite-card-bottom .sale-buttons-favourites button:last-child {
+  height: 40px;
+  border: 2px solid #da002b;
+  background-color: transparent;
+  border-radius: 8px;
+  color: #da002b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.favourite-card-bottom .sale-buttons button:last-child:hover {
+  background-color: #eb15370d;
+}
+
+/* media */
+
+@media screen and (max-width: 1024px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .favourites h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .favourite-card {
+    height: 372px;
+    padding: 10px;
+  }
+
+  .favourite-card-top {
+    height: 140px;
+  }
+
+  .favourite-card figure {
+    height: 100%;
+    width: 140px;
+  }
+
+  .favourite-card-top .discount {
+    font-size: 13px;
+    line-height: 14px;
+    padding: 3px 5px;
+  }
+
+  .favourite-card-top .favourites-actions button {
+    width: 28px;
+    height: 28px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .favourite-product-title {
+    font-size: 14px;
+    line-height: 18px;
+    height: 40px;
+    margin-bottom: 6px;
+  }
+
+  .favourite-card-bottom .price-discount .old-price {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .favourite-card-bottom .sale-buttons-favourites button:first-child {
+    height: 36px;
+    width: 36px;
+  }
+
+  .favourite-card-bottom .sale-buttons-favourites button:last-child {
+    height: 36px;
+  }
+}

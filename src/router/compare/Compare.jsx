@@ -1,12 +1,13 @@
-import React from 'react'
-import "./Compare.css"
+import React from "react";
+import "./Compare.css";
+import AddToCompare from "../../components/addToCompare/AddToCompare";
 
 function Compare() {
   return (
     <div className="compare">
-      <h1>Compare</h1>
+      <AddToCompare />
     </div>
-  )
+  );
 }
 
-export default Compare
+export default Compare;
