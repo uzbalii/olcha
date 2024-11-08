@@ -8,6 +8,8 @@ import Sparepart from "../../components/sparepart/Sparepart";
 import Brends from "../../components/brends/Brends";
 import Aksesuars from "../../components/aksesuars/Aksesuars";
 import Appleproduct from "../../components/appleproduct/Appleproduct";
+import Phone from "../../components/phone/Phone";
+import Accessory from "../../components/accessory/Accessory";
 
 function Main() {
   return (
@@ -29,21 +31,15 @@ function Main() {
         />
       </div>
       <Products />
-<<<<<<< HEAD
       <Seasonal />
       <Sparepart />
       <Phone />
-<<<<<<< HEAD
-=======
       <Accessory />
->>>>>>> origin/asqarjon
-=======
-      <Seasonal/>
-      <Sparepart/>
+      <Seasonal />
+      <Sparepart />
       <Brends />
       <Aksesuars />
-      <Appleproduct/>
->>>>>>> origin/ali
+      <Appleproduct />
     </div>
   );
 }

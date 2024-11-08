@@ -4,16 +4,34 @@ import { popularData } from "../../data/ProductData";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
+import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { FaHeart } from "react-icons/fa6";
 
 function Products() {
+  const heartStore = useSelector((s) => s.heart);
+  const dispatch = useDispatch();
+
   return (
     <div className="products">
-      {popularData?.map((item, index) => (  
+      {popularData?.map((item, index) => (
         <div key={item.id || index} className="product_item">
           {item.discount > 0 && <p className="product_discount">17 %</p>}
-          <button className="product_heart">
-            <IoMdHeartEmpty />
-          </button>
+          {heartStore.some((a) => a.id === item.id) ? (
+            <button
+              onClick={() => dispatch(removeFromHeart(item))}
+              className="product_heart"
+            >
+              <FaHeart style={{ color: "#f00" }} />
+            </button>
+          ) : (
+            <button
+              onClick={() => dispatch(addToHeart(item))}
+              className="product_heart"
+            >
+              <IoMdHeartEmpty />
+            </button>
+          )}
           <button className="product_chart">
             <IoStatsChart />
           </button>
@@ -45,8 +63,6 @@ function Products() {
             <button>Muddatli to'lov</button>
           </div>
         </div>
-
-           
       ))}
     </div>
   );
