@@ -5,6 +5,9 @@ import Catalogs from "../../components/catalogs/Catalogs";
 import Products from "../../components/products/Products";
 import Seasonal from "../seasonal/Seasonal";
 import Sparepart from "../../components/sparepart/Sparepart";
+import Brends from "../../components/brends/Brends";
+import Aksesuars from "../../components/aksesuars/Aksesuars";
+import Appleproduct from "../../components/appleproduct/Appleproduct";
 
 function Main() {
   return(
@@ -20,6 +23,9 @@ function Main() {
       <Products />
       <Seasonal/>
       <Sparepart/>
+      <Brends />
+      <Aksesuars />
+      <Appleproduct/>
     </div>
     )
 }

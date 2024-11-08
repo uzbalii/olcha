@@ -1,0 +1,72 @@
+.aksesuars {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    font-weight: normal;
+    margin: 10px;
+    gap: 15px;
+}
+
+.left {
+    width: 65%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+}
+
+.right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.aksesuar_item {
+    width: 229px;
+    height: 342px;
+    font-size: 14px;
+    color: #676767;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: normal;
+    align-items: center;
+    text-align: start;
+
+    .heart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 170px;
+    }
+
+    .chart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    a {
+        font-size: 17px;
+        padding: 5px;
+        background-color: #ffd740;
+        border-radius: 7px;
+        font-family: sans-serif;
+    }
+}

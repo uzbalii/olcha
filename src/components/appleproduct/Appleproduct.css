@@ -1,0 +1,105 @@
+.appleproduct {
+    width: 100%;
+    height: 120vh;
+    background-color: #f2f2f2;
+    padding: 45px;
+    font-weight: normal;
+    display: flex;
+
+
+    h1 {
+        margin: 20px;
+    }
+}
+
+.apple_item_left {
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mouse_item {
+    width: 344px;
+    height: 516px;
+    font-size: 14px;
+    color: #676767;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: normal;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 12px;
+
+    .heart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 290px;
+    }
+
+    .chart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 290px;
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        padding: 5px;
+        font-size: 15px;
+        background-color: #ffd740;
+        border-radius: 7px;
+        font-family: sans-serif;
+        display: inline-block;
+    }
+}
+
+.watch_item {
+    width: 344px;
+    height: 204px;
+    padding: 20px;
+    display: flex;
+    background-color: #ffff;
+    gap: 15px;
+    font-size: 14px;
+    color: #676767;
+
+
+    .watch_text{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    a {
+        padding: 5px;
+        font-size: 15px;
+        background-color: #ffd740;
+        border-radius: 7px;
+        font-family: sans-serif;
+        display: inline-block;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+    }
+}
