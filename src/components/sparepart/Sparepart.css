@@ -1,0 +1,42 @@
+.sparepart {
+    width: 100%;
+    height: 280px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.sparepart .catalogs {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.sparepart .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.sparepart .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.sparepart .catalogs__item img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.bg {
+    background: linear-gradient(rgb(93, 45, 46), rgb(243, 236, 230)) ​;
+    padding: 20px;
+}
+
+.sparepart .catalogs__item p {
+    font-weight: 700;
+    font-size: 14px;
+}

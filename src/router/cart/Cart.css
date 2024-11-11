@@ -1,0 +1,152 @@
+.Cart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 2%;
+}
+
+.empty_block{
+    width: 1300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    color: #111111;
+    background-color: #fff;
+    text-align: center;
+}
+
+.empty_block img {
+    width: 64px;
+    height: 64px;
+}
+
+.empty_block h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.empty_block p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.empty_block button{
+    padding: 17px 19px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 5px;
+    background-color:  var(--main-color);
+}
+
+.cart_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cart_products{
+    border-radius: 10px;
+    border: 1px solid #999;
+    width: 880px;
+    height: 400px;background-color: blue;
+
+}
+.cart_item {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .cart_item .cart_item_img img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart_item_info p{
+    color: #111111;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .cart_item .Brend{
+    color: #999;
+  }
+  
+
+
+.cart_payments{
+    border-radius: 10px;
+    border: 1px solid #999;
+    width: 880px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 2%;
+}
+
+.cart_payments h1{
+    font-size: 42px;
+    font-weight: 550;
+}
+
+.cart_payments form{
+    display: flex;  
+    gap: 30px; 
+}
+.input_box input{
+    padding: 15px 100px;
+    border-radius: 12px;
+    border: none;
+    border: 2px solid #111111;
+}
+
+
+form label{
+    color: #999;
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+form .input_phone{
+    font-size: 18px;
+    color: #111111;
+}
+form .last_input{
+    /* margin-left/: 4px; */
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.input_box button{
+    padding: 15px 10px;
+    border: 2px solid #111111;
+    /* margin-left: 4px; */
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.cart_payments form .input_box{
+display: flex;
+flex-direction: column;
+}
+.cart_total{
+    border-radius: 10px;
+    border: 1px solid #999;
+    width: 380px;
+    height: 600px;
+    background-color: tomato;
+} 

@@ -125,26 +125,6 @@ export const popularData = [
     ],
     discount: 17,
   },
-
-  {
-    id: 11,
-    price: 7917000,
-    name: "Diska mashina uchun R18 0292 5-112 MB 4 ta",
-    img: [
-      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/Fcs9SIDzEQCHrmIZdKRZA3QPeUCJY0fwnkL1XcAJ5LhV5Ldtkwlgz1CPWQr1.jpg",
-    ],
-    discount: 17,
-  },
-
-  {
-    id: 12,
-    price: 3317000,
-    name: "Avtomobil signalizatsiyasi Magicar Dominant 909 (Original)",
-    img: [
-      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/C9cI4kvEtoWMDNA34ncJVJsVcKZZBOkgRHAFUO3mYEjly0V8esHezQr3c9Fp.jpg",
-    ],
-    discount: 17,
-  },
 ];
 
 export const sparePartsData = [
@@ -238,12 +218,12 @@ export const phoneData = [
   {
     id: 26,
     name: "Huawei Nova 11i 8/128GB Black",
-    img:[ 
+    img: [
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/KRRhk8DwLiQVNVyaOc75QNNdLolmfIoVWvUomyOtFPzo9LnIeIuVOdhMwSJc.jpg",
       "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-07-05/llrFlAIcTcjGAVwrCJKufaIS2VpibhftZtreunoL6StOGGM7kf2rBdxu0w9i.jpg",
-  ],
+    ],
     price: 1736000,
-    discount: -55
+    discount: -55,
   },
   {
     id: 27,
@@ -254,17 +234,16 @@ export const phoneData = [
       "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-10/twfId63ORgfLkRuTxpL9sYehKrvkq8HuKBvzyqFm9RFj8qK4no8L2G4HYCV5.jpg",
     ],
     price: 6000,
-    discount: -55
+    discount: -55,
   },
   {
     id: 28,
     name: "Huawei nova 10 Pro 8/256 GB Yorqin qora",
     img: [
       "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-07-05/llrFlAIcTcjGAVwrCJKufaIS2VpibhftZtreunoL6StOGGM7kf2rBdxu0w9i.jpg",
-      
     ],
     price: 7060000,
-    discount:-7
+    discount: -7,
   },
 
   {
@@ -272,9 +251,9 @@ export const phoneData = [
     name: "Huawei nova 10 Pro",
     img: [
       "https://olcha.uz/image/220x220/products/2022-12-12/huawei-nova-10-pro-181568-0.jpeg",
-          ],
-          price: 7060000,
-          discount:-7
+    ],
+    price: 7060000,
+    discount: -7,
   },
 
   {
@@ -282,22 +261,20 @@ export const phoneData = [
     name: "Apple iPhone 12 64GB white",
     img: [
       "https://olcha.uz/image/220x220/products/2020-10-24/apple-iphone-12-64gb-white-18443-0.jpeg",
-      
     ],
     price: 8123000,
-    discount: -25
+    discount: -25,
   },
   {
     id: 31,
     name: "Apple iPhone 12 64GB Green",
     img: [
       "https://olcha.uz/image/220x220/products/2020-10-24/apple-iphone-12-64gb-white-18443-0.jpeg",
-      
     ],
     price: 8123000,
-    discount: -25
+    discount: -25,
   },
-]
+];
 
 export const accessoryData = [
   {
@@ -311,10 +288,8 @@ export const accessoryData = [
     id: 33,
     name: "Qo‘lda bug‘lash mashinasi Haley HY-312",
     img: "https://olcha.uz/image/700x700/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    
     price:  292000,
     discount: -13,
-
   },
   {
     id: 34,
@@ -334,29 +309,118 @@ export const accessoryData = [
     id: 36,
     name: "Stolli sanoat overloker Jack JK-E3-4-M2-24",
     img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-09-22/EK19OkjIAv9G3h7UXssfAyuuHi82S692Hm5uDxQsv7EzdftXtyYZfHYsyJ38.jpg",
-    price:  8581000,
+    price: 8581000,
   },
   {
     id: 37,
     name: "Konditsioner Artel ART-12HS Shah Inventor",
     img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-06-10/XosiXtOFIjqsIWOvUUBSz7m589wZ6FrIhOzsrBh6hrwKp57eiwjItcaVZ4FB.jpg",
-    price: 5198000, 
-    discount: -10
+    price: 5198000,
+    discount: -10,
+  },
+  {
+    id: 38,
+    name: "Sharbat chiqargich qahva maydalagich blender va maydalagich BSSJ-3882",
+    img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-10-29/77dnkLquMSk3WKoq22KeXNjaUiZGJBvQeWzFuQe5BfaV7I9Aa1kgoy8u0nTF.jpg",
+    price: 850000,
+    discount: -22,
+  },
+  {
+    id: 39,
+    name: "Stol ventilyatori TF1501",
+    img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-05-14/8YuqyrQWCTq0EVDQZxjIzeIJuQ8VHXS4sQUJXtGZH7TnpL8JDIaTDgu5AOIO.jpg",
+    price: "193000",
+    discount: -40,
+  },
+];
 
-    },
-    {
-      id: 38,
-      name: "Sharbat chiqargich qahva maydalagich blender va maydalagich BSSJ-3882",
-      img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-10-29/77dnkLquMSk3WKoq22KeXNjaUiZGJBvQeWzFuQe5BfaV7I9Aa1kgoy8u0nTF.jpg",
-      price:  850000,
-      discount: -22, 
-    },
-    {
-      id: 39,
-      name: "Stol ventilyatori TF1501",
-      img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-05-14/8YuqyrQWCTq0EVDQZxjIzeIJuQ8VHXS4sQUJXtGZH7TnpL8JDIaTDgu5AOIO.jpg",
-      price: "193000",
-      discount: -40
-    }
-]
+export const seasonalData = [
+  {
+    id: 9,
+    price: 946000,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/0aIc5uCTEjlkVhru8e6kHPMTyx497HMbGN57xI9DuWczhOne6UGpF74ZDdUL.jpg",
+      "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-09-10/0aIc5uCTEjlkVhru8e6kHPMTyx497HMbGN57xI9DuWczhOne6UGpF74ZDdUL.jpg",
+    ],
+    type: "nexia 1",
+    discount: 17,
+  },
+  {
+    id: 12,
+    price: 3317000,
+    name: "Avtomobil signalizatsiyasi Magicar Dominant 909 (Original)",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/ysEUZvg7k6KeEb5uhMmr2NPEubRTbWerFuyBK5u9WOtu7fwk7oKc2cCXE7Bt.jpg",
+    ],
+    discount: 17,
+  },
+  {
+    id: 13,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/Fcs9SIDzEQCHrmIZdKRZA3QPeUCJY0fwnkL1XcAJ5LhV5Ldtkwlgz1CPWQr1.jpg",
+    ],
+    discount: 17,
+  },
 
+  {
+    id: 14,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/C9cI4kvEtoWMDNA34ncJVJsVcKZZBOkgRHAFUO3mYEjly0V8esHezQr3c9Fp.jpg",
+    ],
+    discount: 17,
+  },
+
+  {
+    id: 15,
+    price: 945200,
+    name: "Akkumulyator Delkor 60 Ah",
+    img: [
+      "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2024-09-10/UDUkwqXphdBOJBhnvkADmyrSUpVr0e8oxeAyjhJGEJtH8ADhYQC3jPVtfwE1.jpg",
+    ],
+    discount: 17,
+  },
+];
+
+export const carData = [
+  {
+    url: "https://olcha.uz/image/132x132/category/d4d6t7a1qSh6fBEToCRfVQY5O3w3mMxiChSDsbVALBxjxXGVeDo3qKG10Npi.png",
+    name: "Vidio register",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/VasWe4boWvAg1agTYMzm9oh5SwRyrYcO8PMjks2Tl7n4RhICTS8eoWzm8yVI.png",
+    name: "avto aksesuarlar",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/jsUPuEA9IHAEvkuJAwNGHjYkeVa2yJa6eQWK7EcDIdQMInif8HjQvQ8YlI36.png",
+    name: "karcher",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/1T79CVFM1tfWRjatnqv7RsWiFzFhvAeMEhbMZjc1bNceJR7ara6LAMBrjDb5.png",
+    name: "avto rul",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/vlD2n0Fbfx743UyfQLWdKBiHCNHFLORvLwMUl9WaKNhQF6zrkMgvpo40P4tY.png",
+    name: "avto signalizatsiya",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/7HyrXFsEIKJRBBMl4QywNFTtwbj8b58TiR0L8W48W7D2APlfC7YtOR87j27x.png",
+    name: "akumulator",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/NnPrDfxRshNwGKZK2EzKgKxRJjNLV64aXAcoQbNkjYajTyQ514NgCnfQXHxL.png",
+    name: "shinalar",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/RXsjevBJB5abpxLqrT0pkis7ZHb20QGn30uNiEben9yzpbz2zqhHHRAgTVC0.png",
+    name: "fara",
+  },
+  {
+    url: "https://olcha.uz/image/132x132/category/V4Uh5QtLhZrHJ167Heil0Wp0HbiZzvKiWgDGL1OOxYpatpAwBGuJ96ZdYqoO.png",
+    name: "avto gilamcha",
+  },
+];

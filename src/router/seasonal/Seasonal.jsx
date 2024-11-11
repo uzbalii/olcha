@@ -1,21 +1,15 @@
-import React from 'react'
-import "./accessory.css";
-import { accessoryData } from '../../data/ProductData';
-import { addToCart,  } from "../../context/cartSlice";
+import React from "react";
+import { seasonalData } from "../../data/ProductData";
+import "./Seasonal.css";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
-import { useDispatch, useSelector } from "react-redux";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 
-function Accessory() {
-  const dispatch = useDispatch();
-  const  accessoryData = useSelector((s) => s.cart);
-
- 
+function Seasonal() {
   return (
-    <div className='Accessory'>
-         {accessoryData?.map((item, index) => (  
-        <div key={item.id || index} className="product_item">
+    <div className="seasonal">
+      {seasonalData?.map((item, index) => (
+        <div key={index} className="product_item">
           {item.discount > 0 && <p className="product_discount">17 %</p>}
           <button className="product_heart">
             <IoMdHeartEmpty />
@@ -25,7 +19,7 @@ function Accessory() {
           </button>
 
           <figure>
-            <img src={item.img} alt="" />
+            <img src={item.img[0]} alt="" />
           </figure>
 
           <p className="product_title">{item.name}</p>
@@ -45,18 +39,20 @@ function Accessory() {
             {Math.round(item.price * 0.17).toLocaleString()} so'm x 12 oy
           </p>
           <div className="product_item_action">
-            <button onClick={() => dispatch(addToCart(item))}>
+            <button>
               <PiShoppingCartSimpleBold />
             </button>
             <button>Muddatli to'lov</button>
           </div>
         </div>
-
-           
       ))}
-
+      <img
+        className="left_img"
+        src="https://olcha.uz/image/272x444/homePage/cdn_1/2024-10-21/l8PPzsrJpBNpjXe7ddr8p4tzDwYpSzz2rywiHn29ljRm2CqXBCvHZU52kdly.jpg"
+        alt=""
+      />
     </div>
-  )
+  );
 }
 
-export default Accessory;
+export default Seasonal;
