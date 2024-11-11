@@ -1,0 +1,89 @@
+.news {
+    width: 100%;
+    height: 100vh;
+    padding: 64px 20px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.news_top {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    h2 {
+        font-weight: normal;
+        font-size: 32px;
+    }
+
+    a {
+        font-size: 17px;
+        color: #da002b;
+    }
+}
+
+.news_items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.news_item{
+    width: 370px;
+    height: 360px;
+    border-radius: 12px;
+    color: #aeaeae;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+
+
+
+    img{
+        width: 340px;
+        border-radius: 12px;
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+    }
+}
+
+.date{
+    display: flex;
+    padding: 0 10% 0 0;
+    justify-content: space-between;
+    align-items: center;
+
+    .eye{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 17px;
+    }
+}
+
+.about_cherry{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+
+    h3{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}

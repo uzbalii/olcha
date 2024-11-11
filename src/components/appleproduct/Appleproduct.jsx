@@ -38,8 +38,63 @@ function Appleproduct() {
       </div>
 
       <div className="apple_item_right">
-        <video src="https://youtu.be/eDqfg_LexCQ" controls ></video>
+        <img src={image} alt="" />
+        <div className="noutbook_item">
+          <div className="noutbook_item_left"><img src="https://olcha.uz/image/220x220/products/supplier/stores/1/2023-05-20/N6u7M5ch87s5PkARnrTiwVeEo87y5hoxmsuCIBhlP2yAJr7QQ1Huse3gPffx.jpg" alt="" /> </div>
+          <div className="noutbook_item_right">
+            <h3>Magic Keyboard Russian 12.9-inch 2021 Oq</h3>
+            <b>5 864 725 so'm</b>
+            <p>687 000 so'm x 12 oyga Muddatli tolov</p>
+          </div>
+        </div>
       </div>
+
+        <div className="apple_item_bottom">
+          <div className="airpods_item">
+          <img src="https://olcha.uz/image/220x220/products/2021-10-28/besprovodnye-naushniki-apple-airpods-3-26384-0.jpeg" alt="" />
+            <IoMdHeartEmpty className='heart_icon' />
+            <BiBarChart className='chart_icon' />
+          <h3>Беспроводные наушники Apple Airpods 3</h3>
+            <p>
+            2 250 368 сум</p>
+          <a href="">264 000 сум / 12 мес
+</a>
+          </div>
+
+        <div className="airpods_item">
+          <img src="https://olcha.uz/image/220x220/products/2022-06-14/besprovodnye-naushniki-apple-airpods-max-white-58621-0.jpeg" alt="" />
+          <IoMdHeartEmpty className='heart_icon' />
+          <BiBarChart className='chart_icon' />
+          <h3>Беспроводные наушники Apple AirPods Max White</h3>
+          <p>
+            7 358 131 сум</p>
+          <a href="">264 000 сум / 12 мес
+          </a>
+        </div>
+
+        <div className="airpods_item">
+          <img src="https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-24/PICza77c6oC9pwoP6duGBCRYUtZIAYbfSOyPStAJE82gGRCIzkOpevYlTjOB.jpg" alt="" />
+          <IoMdHeartEmpty className='heart_icon' />
+          <BiBarChart className='chart_icon' />
+          <h3>Беспроводные calonka HomePod Mini White</h3>
+          <p>
+            2 250 368 сум</p>
+          <a href="">264 000 сум / 12 мес
+          </a>
+        </div>
+
+        <div className="airpods_item">
+          <img src="https://olcha.uz/image/220x220/products/2022-11-14/apple-watch-series-8-45mm-silver-168582-0.jpeg" alt="" />
+          <IoMdHeartEmpty className='heart_icon' />
+          <BiBarChart className='chart_icon' />
+          <h3>Apple watch Series 8 45mm Silver</h3>
+          <p>
+            2 250 368 сум</p>
+          <a href="">264 000 сум / 12 мес
+          </a>
+        </div>
+
+        </div>
 
     </div>
   )

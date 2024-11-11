@@ -1,0 +1,112 @@
+.footer {
+    width: 1520px;
+    height: 105vh;
+    margin-left: -50px;
+    background-color: #f2f2f2;
+    border: 2px solid #fff;
+    font-family: sans-serif;
+}
+
+.footer_top {
+    height: 300px;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 382px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 64px;
+    display: flex;
+
+
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 20px;
+
+        img {
+            width: 102px;
+            height: 30px;
+        }
+
+        a {
+            font-weight: bold;
+        }
+    }
+
+    .footer_right {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 250px;
+
+        h3 {
+            color: #da002b;
+        }
+    }
+
+    .Eco-friendly {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+}
+
+.footer_top_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .dowload {
+        width: 400px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    img {
+        padding: 5px;
+        background-color: #fff;
+    }
+}
+
+.payment {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+
+
+    img {
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 12px;
+        width: 107px;
+        height: 56px;
+    }
+
+}
+
+.footer_bottom {
+    height: 90px;
+    padding: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b5cad6;
+    font-family: sans-serif;
+    font-weight: 500;
+}

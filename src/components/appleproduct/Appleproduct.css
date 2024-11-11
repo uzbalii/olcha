@@ -1,10 +1,12 @@
 .appleproduct {
-    width: 100%;
-    height: 120vh;
+    width: 1520px;
     background-color: #f2f2f2;
-    padding: 45px;
+    padding: 85px;
     font-weight: normal;
     display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-left: -50px;
 
 
     h1 {
@@ -17,6 +19,58 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.apple_item_right {
+    display: flex;
+    gap: 25px;
+    padding-top: 105px;
+
+    img {
+        width: 450px;
+        height: 276px;
+        border-radius: 12px;
+    }
+}
+
+
+
+.noutbook_item {
+    width: 450px;
+    height: 276px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #fff;
+
+    h3{
+        font-weight: 300;
+        color: #6e6e6e;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .noutbook_item_right{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        b{
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        p{
+            font-family: sans-serif;
+            padding: 5px;
+            background-color: #ffd740;
+            display: inline-block;
+        }
+    }
 }
 
 .mouse_item {
@@ -75,9 +129,10 @@
     gap: 15px;
     font-size: 14px;
     color: #676767;
+    border-radius: 12px;
 
 
-    .watch_text{
+    .watch_text {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -101,5 +156,78 @@
         font-weight: bold;
         color: black;
         font-family: sans-serif;
+    }
+}
+
+.apple_item_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 450px;
+    
+}
+
+.airpods_item {
+    width: 243px;
+    height: 442px;
+    font-size: 14px;
+    color: #676767;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: normal;
+    align-items: center;
+    text-align: start;
+    background-color: #fff;
+    padding: 10px;
+    text-align: start;
+    border-radius: 12px;
+
+    .heart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 170px;
+    }
+
+    .chart_icon {
+        font-size: 30px;
+        position: absolute;
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+
+    img{
+        height: 220px;
+    }
+
+    h3{
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+        margin-right:90px;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    a {
+        font-size: 14px;
+        padding: 5px;
+        background-color: #ffd740;
+        border-radius: 7px;
+        font-family: sans-serif;
+        margin-right: 60px;
     }
 }

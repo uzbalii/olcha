@@ -10,6 +10,8 @@ import Aksesuars from "../../components/aksesuars/Aksesuars";
 import Appleproduct from "../../components/appleproduct/Appleproduct";
 import Phone from "../../components/phone/Phone";
 import Accessory from "../../components/accessory/Accessory";
+import Footer from "../../components/footer/Footer";
+import News from "../../components/news/News";
 
 function Main() {
   return (
@@ -35,11 +37,11 @@ function Main() {
       <Sparepart />
       <Phone />
       <Accessory />
-      <Seasonal />
-      <Sparepart />
       <Brends />
       <Aksesuars />
       <Appleproduct />
+      <News />
+      <Footer />
     </div>
   );
 }
