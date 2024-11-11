@@ -288,7 +288,7 @@ export const accessoryData = [
     id: 33,
     name: "Qo‘lda bug‘lash mashinasi Haley HY-312",
     img: "https://olcha.uz/image/700x700/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    price: 292000,
+    price:  292000,
     discount: -13,
   },
   {

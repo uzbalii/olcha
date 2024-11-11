@@ -150,4 +150,4 @@ function Brends() {
     )
 }
 
-export default Brends
+export default Brends;

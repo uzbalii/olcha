@@ -1,11 +1,17 @@
 import React from 'react'
 import "./accessory.css";
-import { accessoryData } from "../../data/ProductData"
+import { accessoryData } from '../../data/ProductData';
+import { addToCart,  } from "../../context/cartSlice";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
+import { useDispatch, useSelector } from "react-redux";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 
 function Accessory() {
+  const dispatch = useDispatch();
+  const  accessoryData = useSelector((s) => s.cart);
+
+ 
   return (
     <div className='Accessory'>
          {accessoryData?.map((item, index) => (  
@@ -19,7 +25,7 @@ function Accessory() {
           </button>
 
           <figure>
-            <img src={item.img[0]} alt="" />
+            <img src={item.img} alt="" />
           </figure>
 
           <p className="product_title">{item.name}</p>
@@ -39,7 +45,7 @@ function Accessory() {
             {Math.round(item.price * 0.17).toLocaleString()} so'm x 12 oy
           </p>
           <div className="product_item_action">
-            <button>
+            <button onClick={() => dispatch(addToCart(item))}>
               <PiShoppingCartSimpleBold />
             </button>
             <button>Muddatli to'lov</button>
@@ -53,4 +59,4 @@ function Accessory() {
   )
 }
 
-export default Accessory
+export default Accessory;
