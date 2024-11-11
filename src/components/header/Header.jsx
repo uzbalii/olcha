@@ -44,7 +44,7 @@ function Header() {
             <FaRegHeart />
             Sevimlilar
           </Link>
-          <Link to="/korzina">
+          <Link to="/cart">
             <PiShoppingCartSimpleBold />
             Savatcha
           </Link>

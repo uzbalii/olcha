@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Favourites.css";
 import emptyFavouritesImg from "../../assets/sevimlilar/sevimlilarEmptyImg.png";
 import { Link } from "react-router-dom";
@@ -8,14 +8,20 @@ import { IoCartOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 
 import { removeFromHeart } from "../../context/heartSlice";
+import { useReactToPrint } from "react-to-print";
 
 function Favourites() {
+  const contentRef = useRef(null);
   const dispatch = useDispatch();
   const favouritesData = useSelector((s) => s.heart);
 
+  const printWindow = useReactToPrint({ contentRef });
+
   return (
-    <div className="favourites">
-      <h2>Sevimli mahsulotlar</h2>
+    <div ref={contentRef} className="favourites">
+      <h2>
+        Sevimli mahsulotlar <button onClick={printWindow}>Print</button>{" "}
+      </h2>
       {!favouritesData?.length ? (
         <div className="favourites-container">
           <img src={emptyFavouritesImg} alt="" />

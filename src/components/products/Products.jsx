@@ -5,12 +5,15 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { IoStatsChart } from "react-icons/io5";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { addToCompare, removeFromCompare } from "../../context/compareSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa6";
 
 function Products() {
   const heartStore = useSelector((s) => s.heart);
+  const compareStore = useSelector((s) => s.compare);
   const dispatch = useDispatch();
+  console.log("compare >>>", compareStore);
 
   return (
     <div className="products">
@@ -32,9 +35,21 @@ function Products() {
               <IoMdHeartEmpty />
             </button>
           )}
-          <button className="product_chart">
-            <IoStatsChart />
-          </button>
+          {compareStore.some((b) => b.id === item.id) ? (
+            <button
+              onClick={() => dispatch(removeFromCompare(item))}
+              className="product_chart"
+            >
+              <IoStatsChart style={{ color: "crimson" }} />
+            </button>
+          ) : (
+            <button
+              onClick={() => dispatch(addToCompare(item))}
+              className="product_chart"
+            >
+              <IoStatsChart />
+            </button>
+          )}
 
           <figure>
             <img src={item.img[0]} alt="" />
